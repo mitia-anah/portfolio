@@ -1,0 +1,29 @@
+.project-container {
+    // background-color: antiquewhite;
+}
+.project {
+    padding-inline-start: 0;
+    gap: 2rem;
+    padding: 2rem;
+}
+.project-image {
+    width: 100%;
+}
+.project-list{
+    list-style: none;
+    background-color:white;
+    max-width: 360px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+@media (min-width: 800px) {
+    .project {
+        // display: grid;
+        // grid-template-columns: repeat(5, 1fr);
+        display: flex;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+    }
+}

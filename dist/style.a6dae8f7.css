@@ -62,5 +62,31 @@
     gap: 4rem;
   }
 }
+.project {
+  padding-inline-start: 0;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-list {
+  list-style: none;
+  background-color: white;
+  max-width: 360px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  .project {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+  }
+}
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

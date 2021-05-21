@@ -1,10 +1,9 @@
 import React from 'react'
+import Project from './component/project'
 
-
-export function App() {
-    return {
-        
-    }
-
+function App() {
+    return (
+        <Project/>
+    )
 }
-
+export default App
